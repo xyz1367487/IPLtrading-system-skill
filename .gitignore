@@ -1,15 +1,7 @@
-# Ignore test files
-*.ps1
-*.py
-*.json
-*.js
+# Ignore all by default
+*
 
-# Ignore workspace files
-.openclaw/
-memory/
-scripts/
-skills/
-
-# System
-.DS_Store
-Thumbs.db
+# Allow IPL trading system skill files
+!run_ipl.ps1
+!README.md
+!.gitignore
