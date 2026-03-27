@@ -1,7 +1,47 @@
-# Ignore all by default
-*
+﻿# OpenClaw workspace config
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+IDENTITY.md
+SOUL.md
+TOOLS.md
+USER.md
+MEMORY.md
+memory/
+.openclaw/
+skills/
+scripts/
+*.log
 
-# Allow IPL trading system skill files
-!run_ipl.ps1
-!README.md
-!.gitignore
+# Test and temp files
+test_*.ps1
+test_*.py
+*_test.ps1
+*_test.py
+check_*.ps1
+clean_*.ps1
+find_*.ps1
+list_*.ps1
+deep_clean.ps1
+aggressive_clean.ps1
+
+# BTC temp files
+btc_*.ps1
+btc_*.json
+btc_*.md
+get_btc.*
+huobi_fetch.ps1
+sina_fetch.ps1
+yahoo_fetch.ps1
+*_fetch.ps1
+generate_klines.py
+
+# Reports and plans
+BTC*.md
+*_report_*.md
+search_body.json
+claude_md.json
+skill_md.json
+
+# Config backups
+.config-baseline.sha256
