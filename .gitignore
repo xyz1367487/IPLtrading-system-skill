@@ -1,0 +1,15 @@
+# Ignore test files
+*.ps1
+*.py
+*.json
+*.js
+
+# Ignore workspace files
+.openclaw/
+memory/
+scripts/
+skills/
+
+# System
+.DS_Store
+Thumbs.db
